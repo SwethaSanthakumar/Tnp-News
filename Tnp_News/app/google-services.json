@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "59920631539",
+    "firebase_url": "https://tnpnewsapp.firebaseio.com",
+    "project_id": "tnpnewsapp",
+    "storage_bucket": "tnpnewsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59920631539:android:7d020bc56bb729648b5986",
+        "android_client_info": {
+          "package_name": "com.example.tnpnewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59920631539-qe1b9c425t54l6shumdic7vhjqaoqe0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tnpnewsapp",
+            "certificate_hash": "aa7d6f7a1eea30028ee359dd73c7a46a81e19b84"
+          }
+        },
+        {
+          "client_id": "59920631539-ldngrgmmdr0pbr842fdmg8c2eeoptq06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoX4X4BfSbkdx5vkykZMFRd7uy6MQfCmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59920631539-ldngrgmmdr0pbr842fdmg8c2eeoptq06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
