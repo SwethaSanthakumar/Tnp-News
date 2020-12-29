@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="User's Profile"
+        android:title="PROFILE">
+
+        <EditTextPreference
+            android:key="username"
+            android:summary="Enter your username"
+            android:title="Username" />
+        <EditTextPreference
+            android:key="password"
+            android:summary="Enter your password"
+            android:title="Password" />
+        <EditTextPreference
+            android:key="email"
+            android:summary="Enter your email id"
+            android:title="Email" />
+        <ListPreference
+            android:entries="@array/Values"
+            android:entryValues="@array/list"
+            android:key="dept"
+            android:summary="Select your department"
+            android:title="Department"/>
+        <ListPreference
+            android:entries="@array/year"
+            android:entryValues="@array/year"
+            android:key="year"
+            android:summary="Select your current year of study"
+            android:title="Year"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Settings"
+        android:title="SETTINGS" >
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:summary="On/Off"
+            android:title="Keep me logged in" />
+
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="listpref"
+            android:summary="Languages"
+            android:title="List preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

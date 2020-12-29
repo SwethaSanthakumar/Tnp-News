@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg14"
+    tools:context=".Profile">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp">
+    <TextView
+        android:id="@+id/txtdashboard"
+        android:text="PROFILE SETTINGS"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#1f1f1f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="#1f1f1f"
+        android:textStyle="bold"
+        android:text="MY PROFILE" />
+
+    <TextView
+        android:id="@+id/txtPrefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="#1f1f1f"
+        android:textStyle="bold"
+        android:text="My Profile" />
+
+    <Button
+        android:id="@+id/storeinformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showinformation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="EDIT PROFILE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1f1f1f"/>
+
+    <Button
+        android:id="@+id/showinformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:text="UPDATE PROFILE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1f1f1f"/>
+
+</RelativeLayout>

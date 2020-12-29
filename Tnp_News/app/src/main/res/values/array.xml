@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listOptions">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="list">
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CHE</item>
+        <item>ME</item>
+        <item>EIE</item>
+        <item>CE</item>
+    </string-array>
+    <string-array name="Values">
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CHE</item>
+        <item>ME</item>
+        <item>EIE</item>
+        <item>CE</item>
+    </string-array>
+    <string-array name="year">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+
+</resources>  

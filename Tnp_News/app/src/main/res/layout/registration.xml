@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    tools:context=".RegistrationForm">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="#1f1f1f"
+        android:onClick="home"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="HOME" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="115dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#f1f1f1"
+        android:textStyle="bold"
+        android:autofillHints="#f1f1f1"
+        android:textColorHighlight="#f1f1f1"
+        android:textColorHint="#f1f1f1"  />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="115dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#f1f1f1"
+        android:textStyle="bold"
+        android:autofillHints="#f1f1f1"
+        android:textColorHighlight="#f1f1f1"
+        android:textColorHint="#f1f1f1" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:textColor="#1f1f1f"
+        android:onClick="registerbtn"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:text="Register" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#1f1f1f"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClicklogin"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="LOGIN" />
+
+</RelativeLayout>
